@@ -10,7 +10,7 @@ export interface Contato {
 }
 
 export const getContatos = async () => {
-  const response = await api.get("/contatos");
+  const response = await api.get<Contato[]>("/contatos");
   return response.data;
 };
 
@@ -30,6 +30,6 @@ export const updateContato = async (
 };
 
 export const getContatoById = async (id: string) => {
-  const response = await api.get(`/contatos/${id}`);
+  const response = await api.get<Contato>(`/contatos/${id}`);
   return response.data;
 }

@@ -8,6 +8,7 @@ const styles = StyleSheet.create({
   info: { marginLeft: 10 },
   nome: { fontWeight: "bold" },
   botaoAdicionar: { backgroundColor: "blue", padding: 10, marginTop: 20, borderRadius: 5, alignItems: "center" },
+  botaoEditar: { backgroundColor: "blue", padding: 10, marginTop: 20, borderRadius: 5, alignItems: "center" },
   textoBotao: { color: "white", fontSize: 16 },
   text: { fontSize: 20, marginBottom: 10 },
 });
